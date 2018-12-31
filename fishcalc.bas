@@ -1,4 +1,5 @@
 'Cost is the cost of a fishing license in colorado in 2019
+'shoutouts to cwhite
 cost = 33
 INPUT "hours spent fishing? ", hours%
 fishcaught = INT(hours% / 2)
