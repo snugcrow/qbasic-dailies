@@ -2,7 +2,7 @@
 cost = 33
 INPUT "hours spent fishing? ", hours%
 fishcaught = INT(hours% / 2)
-IF fightcaught < 0 THEN fishcaught = 0
+IF fishcaught < 0 THEN fishcaught = 0
 PRINT "approximate fish caught/sesh: " + STR$(fishcaught)
 fishprice = fishcaught * 1.25
 PRINT "approximate fish value/sesh: " + STR$(fishprice) + " dollars."
