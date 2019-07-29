@@ -2,10 +2,10 @@ RANDOMIZE TIMER
 PRINT "RRCC UNOFFICIAL COMMONER GENERATOR"
 PRINT "coded exclusively while wine-drunk"
 INPUT "Whats yr commoner name? ", thename$
-wisdom = INT(RND * 18) + 1
-intell = INT(RND * 18) + 1
-strength = INT(RND * 18) + 1
-charisma = INT(RND * 18) + 1
+wisdom = INT(RND * 6) + 1 + INT(RND * 6) + 1 + INT(RND * 6) + 1
+intell = INT(RND * 6) + 1 + INT(RND * 6) + 1 + INT(RND * 6) + 1
+strength = INT(RND * 6) + 1 + INT(RND * 6) + 1 + INT(RND * 6) + 1
+charisma = INT(RND * 6) + 1 + INT(RND * 6) + 1 + INT(RND * 6) + 1
 constitution = INT(RND * 18) + 1
 dexterity = INT(RND * 18) + 1
 hp = 4 + INT(INT(constitution - 10) / 2)
