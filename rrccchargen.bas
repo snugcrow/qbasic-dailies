@@ -1,6 +1,5 @@
 RANDOMIZE TIMER
 PRINT "RRCC UNOFFICIAL COMMONER GENERATOR"
-PRINT "coded exclusively while wine-drunk"
 INPUT "Whats yr commoner name? ", thename$
 wisdom = INT(RND * 6) + 1 + INT(RND * 6) + 1 + INT(RND * 6) + 1
 intell = INT(RND * 6) + 1 + INT(RND * 6) + 1 + INT(RND * 6) + 1
